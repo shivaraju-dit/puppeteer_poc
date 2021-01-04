@@ -16,3 +16,6 @@ __Jest snapshots__
  
     npm test:percy
 
+__References__ 
+* [puppeteer ](https://developers.google.com/web/tools/puppeteer)
+* [percy](https://percy.io/)
