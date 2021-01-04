@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:snapshots": "jest --config=jest.config.js --detectOpenHandles --forceExit",
-    "test:snapshots-update": "jest --config.jest.config.js -- updateSnapshot --detectOpenHandles --forceExit",
+    "test:snapshots-update": "jest --config=jest.config.js -- updateSnapshot --detectOpenHandles --forceExit",
     "test:percy": "percy exec -- jest -i './tests-snapshots/_tests_/percy.test.js'"
   },
   "repository": {
